@@ -1,1 +1,12 @@
+__pycache__/
+*.pyc
+.env
+venv/
+data/raw/
+data/processed/
+models/
+models/*
+models/tabular/*
+models/vector_store/*
+*.ipynb_checkpoints
 
