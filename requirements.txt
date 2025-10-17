@@ -1,1 +1,37 @@
+# core
+pandas
+numpy
+requests
+beautifulsoup4
+feedparser
+scikit-learn
+xgboost
+joblib
+python-dotenv
+
+# embeddings & retrieval
+sentence-transformers
+faiss-cpu
+
+# transformers / local LLM (lightweight by default)
+transformers>=4.30
+torch
+
+# RAG orchestration
+langchain
+
+# causal & explainability
+shap
+dowhy
+econml
+
+# web / UI
+fastapi
+uvicorn[standard]
+streamlit
+plotly
+
+# testing
+pytest
+tqdm
 
