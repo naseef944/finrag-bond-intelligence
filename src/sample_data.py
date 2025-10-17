@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 import json
 import random
-from .config import RAW_DIR
+from src.config import RAW_DIR
 
 def generate_bond_issuance(n_years=5):
     dates = pd.date_range(end=datetime.today(), periods=n_years*4, freq='Q')
